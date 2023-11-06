@@ -8,7 +8,7 @@ In all the above example list I can keep adding list
 ---
 ### Node 
  Start [ Data, Address of next]
- ![[Pasted image 20231101194226.png]]
+ ![[attachments/Pasted image 20231101194226.png]]
 ```python 
 class Node:
 	def __init__(self,item=None,next=None):
@@ -40,7 +40,7 @@ class Node:
 	- item
 	- reference of next Node
 
-![[Pasted image 20231101195505.png]]
+![[attachments/Pasted image 20231101195505.png]]
 
 ---
 
@@ -49,9 +49,9 @@ class Node:
 - Insertion
 	- insert at start
 	- insert at last
-	- insert in between ![[Pasted image 20231101200211.png]]
+	- insert in between ![[attachments/Pasted image 20231101200211.png]]
 - Deletion
-	- delete start ![[Pasted image 20231101200541.png]]
+	- delete start ![[attachments/Pasted image 20231101200541.png]]
 	- delete last
 	- delete between
 - Searching
@@ -202,7 +202,7 @@ for i in mylist:
 	- item
 	- reference of next Node
 
-![[Pasted image 20231102004834.png]]
+![[attachments/Pasted image 20231102004834.png]]
 ^9b4z3ix6q5
 
 --- 
@@ -352,14 +352,14 @@ print()
 - Circular Linked List is a linear data structure
 - It's Last node.next = start
 ---
-![[Pasted image 20231103183746.png]] 
+![[attachments/Pasted image 20231103183746.png]] 
 *Insertion/Deletion at the start/end is costly Traversing required for both*
 
 --- 
 
  **Instead of start, use last** 
- ![[Pasted image 20231103013357.png]] 
-  - Insertion and deletion in such image![[Pasted image 20231103013702.png]]
+ ![[attachments/Pasted image 20231103013357.png]] 
+  - Insertion and deletion in such image![[attachments/Pasted image 20231103013702.png]]
 ### CLL Node
 ```python 
  class Node:
@@ -515,7 +515,7 @@ cll.print_list()
 	- item
 	- reference of next Node
 - It's Last node.next = start
-![[Pasted image 20231105155719.png]]
+![[attachments/Pasted image 20231105155719.png]]
 ### CLL Node
 
 ```python
